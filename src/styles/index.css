@@ -1,0 +1,50 @@
+.App {
+	height: 100vh;
+}
+.Main {
+	display: flex;
+	height: calc(100% - 129px);
+	justify-content: center;
+	align-items: center;
+}
+.Auth {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	min-width: 400px;
+	justify-content: center;
+	align-items: center;
+}
+.Auth>button {
+	width: 100%;
+}
+.footer {
+	text-align: center;
+}
+.product_container {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-block: 10px;
+}
+.Loading {
+	display: flex;
+	justify-content: center;
+	height: calc(100% - 129px);
+	align-items: center;
+}
+.card-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	min-height: calc(100% - 129px);
+}
+.card {
+	display: flex; 
+	flex-direction: row; 
+	overflow: hidden;
+	background: rgb(236, 236, 236);
+	border: 1px solid black;
+}
